@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mypackage-example
+Version: 0.1
+Summary: EDSA example python package
+Home-page: https://github.com/SLiKKSTaRR/mypackage_example
+Author: SLiKKSTaRR
+Author-email: glen.q.wallace@gmail.com
+License: MIT
+
+# mypackage
+This library was created as an example of how to publish your own Python package
+
+## building this package locally
+'pyhton setup.py sdist'
+
+## installing this package from GitHub
+'pip install git+https://github.com/SLiKKSTaRR/mypackage_example.git'
+
+## updating this package from GitHub
+'pip install --upgrade git+https://github.com/SLiKKSTaRR/mypackage_example.git'
